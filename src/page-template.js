@@ -12,7 +12,7 @@ generatePage = (name, github) => {
     
     <body>
       <h1>${name}</h1>
-      <h2><a href="https://github.com/${github}">Github</a></h2>
+      <h2><a href="https://github.com/${github}" target="_blank">Github</a></h2>
     </body>
     </html>
     `;
